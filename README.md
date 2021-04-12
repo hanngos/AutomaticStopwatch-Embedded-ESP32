@@ -1,6 +1,13 @@
-# Autor
-Hanna Gościniak 
-Informatyka SSI, 5 semestr, grupa 3, 2020/21
-
-# Opis projektu
-Tematem realizowanego projektu jest automatyczny stoper (urządzenie do pomiaru czasu), który ma być wykorzystywany podczas osiedlowych zawodów. Na linii startu będzie znajdował się czujnik wykrywający wiązkę lasera. Gdy zawodnik go przekroczy, rozpoczyna się zliczenie czasu, które trwa aż do momentu, w którym zawodnik przekroczy linię startu po raz drugi. Informacja o czasie, jaki uzyskał zawodnik, prezentowana jest na wyświetlaczu. Stoper można zresetować za pomocą przycisku i jest on zasilany za pomocą Power Banka. O gotowości urządzenia informuje dioda (zielona, gdy można przystąpić do wyścigu, czerwona, gdy zliczanie czasu trwa oraz niebieska, gdy zliczanie czasu się zakończyło, ale urządzenie nie jest gotowe do ponownego zliczania). 
+# Description
+The topic of this project is an automatic stopwatch (time measuring device), which aims to be used during a local competition. At the starting line, there is a sensor. Once the competitor has crossed it, the time count begins and continues until the competitor crosses the starting line a second time. Information about the time obtained by the competitor will be presented on the display. The stopwatch can be reset by pressing a button and is powered by an externally connected battery (PowerBank) for easy replacement of a discharged power source. The readiness of the device will be indicated by the LED (green when it is possible to start the race, red when the time is running, and blue when the time is finished but the device is not ready to count again).
+# Used Elements
+◦ microcontroller - ESP32 DevKit V1
+◦ laser beam sensor - A-CZWL
+◦ display - Gravity DFR0646-G
+◦ 3.3V / 5V logic level converters
+◦ 5mm RGB diode
+◦ resistors: 10, 33, 62, 2x 2k2 and 10k Ω
+◦ 5 mW red laser
+◦ Grove cable
+◦ USB cable
+◦ Power Bank 
